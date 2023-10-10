@@ -1,0 +1,69 @@
+{
+  "project_info": {
+    "project_number": "802183278315",
+    "firebase_url": "https://vapp-1bcaf-default-rtdb.firebaseio.com",
+    "project_id": "vapp-1bcaf",
+    "storage_bucket": "vapp-1bcaf.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:802183278315:android:953ab0e488e29635e158ae",
+        "android_client_info": {
+          "package_name": "com.example.vegdo"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "802183278315-jelo9b1mm5dvei64h07r38pva68lta23.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCwyy3axBhQqsQ6uJ_ep3Z-vrKiH2k6Rkc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "802183278315-jelo9b1mm5dvei64h07r38pva68lta23.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:802183278315:android:45b77c58830ea54ee158ae",
+        "android_client_info": {
+          "package_name": "com.example.vegdoframer"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "802183278315-jelo9b1mm5dvei64h07r38pva68lta23.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCwyy3axBhQqsQ6uJ_ep3Z-vrKiH2k6Rkc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "802183278315-jelo9b1mm5dvei64h07r38pva68lta23.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
