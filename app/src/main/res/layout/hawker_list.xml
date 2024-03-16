@@ -9,8 +9,7 @@
         android:id="@+id/nameTextView"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:textSize="20sp"
-        android:textStyle="bold"
+        android:textSize="17sp"
         android:textColor="@color/black"
         android:layout_marginBottom="8dp"/>
 
@@ -23,7 +22,7 @@
             android:id="@+id/priceLabelTextView"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Price: "
+            android:text="Average Price: ₹"
             android:textSize="16sp"
             android:textColor="@color/black"/>
 
