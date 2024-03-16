@@ -1,4 +1,4 @@
-package com.example.vegdoframer;
+package com.example.vegdoframer.auth;
 
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
@@ -12,6 +12,9 @@ import android.widget.Button;
 import android.widget.TextView;
 import android.widget.Toast;
 
+import com.example.vegdoframer.ui.CheckUserView;
+import com.example.vegdoframer.ui.MainPage;
+import com.example.vegdoframer.R;
 import com.google.android.gms.tasks.OnCompleteListener;
 import com.google.android.gms.tasks.Task;
 import com.google.android.material.textfield.TextInputLayout;
@@ -67,26 +70,9 @@ public class SignIn_page extends AppCompatActivity {
                                 if(task.isSuccessful()){
                                     mDialog.dismiss();
 
-
-                                    mDialog.dismiss();
-                                    databaseReference = FirebaseDatabase.getInstance().getReference("User").child(FirebaseAuth.getInstance().getUid()+"/Role");
-                                    databaseReference.addListenerForSingleValueEvent(new ValueEventListener() {
-                                        @Override
-                                        public void onDataChange(@NonNull DataSnapshot snapshot) {
-
-                                            role = snapshot.getValue(String.class);
-                                            Toast.makeText(SignIn_page.this, "Congratulation! You Have Successfully Login", Toast.LENGTH_SHORT).show();
-                                            Intent Z = new Intent(SignIn_page.this, MainPage.class);
-                                            Z.putExtra("All_in_role", role);
-                                            startActivity(Z);
-                                            finish();
-
-                                        }
-                                        @Override
-                                        public void onCancelled(@NonNull DatabaseError error) {
-
-                                        }
-                                    });
+                                    Intent intent = new Intent(getApplicationContext(), CheckUserView.class);
+                                    startActivity(intent);
+                                    finish();
 
                                 }else{
                                     mDialog.dismiss();
